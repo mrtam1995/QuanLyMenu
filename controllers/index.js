@@ -154,3 +154,7 @@ function createEventBtnXoa() {
     }
 }
 createEventBtnXoa();
+
+function updateMenu(){
+    console.log;
+}
