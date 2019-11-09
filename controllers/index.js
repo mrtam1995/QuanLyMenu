@@ -144,7 +144,7 @@ document.getElementById('btnAdd').onclick = function () {
     document.querySelector(".danh-sach-mon-an").innerHTML += htmlMonAn;
     createEventBtnXoa();
 }
-
+//chức năng xóa
 function createEventBtnXoa() {
     var arrBtnXoa = document.getElementsByClassName('btnXoa');
     for (var i = 0; i < arrBtnXoa.length; i++) {
